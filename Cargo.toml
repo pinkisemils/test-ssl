@@ -1,0 +1,7 @@
+[package]
+name = "test-ssl"
+version = "0.1.0"
+authors = ["Emīls <emils@mullvad.net>"]
+
+[dependencies]
+openssl = { path = "./rust-openssl/openssl/" }
